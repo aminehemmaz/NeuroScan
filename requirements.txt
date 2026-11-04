@@ -1,0 +1,18 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scikit-image>=0.21
+opencv-python>=4.8
+matplotlib>=3.7
+
+# Rebuilding the dataset from the Figshare archives
+h5py>=3.9
+
+# Running the notebook
+jupyterlab>=4.0
+
+# Running the tests
+pytest>=7.4
+
+# Optional: deep features (scripts/02_compare_models.py --with-deep)
+# tensorflow-cpu>=2.15
